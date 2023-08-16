@@ -1,0 +1,64 @@
+#app {
+    height: 420px;
+    width: 320px;
+    border-radius: 5px;
+}
+
+#app form {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#app input[type=textfield] {
+    width: 90%;
+    height: 22%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+}
+
+#app input[type=button],
+input[type=reset] {
+    width: 22%;
+    cursor: pointer;
+    color: white;
+    padding: 25px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+
+#app .orange {
+    background-color: orangered;
+    color: white;
+    content: 20px 20px;
+}
+
+#app .orange:hover {
+    background-color: white;
+    color: orangered;
+    font-weight: bold;
+}
+
+#app .grey {
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+
+#app .grey:hover {
+    background-color: gray;
+}
+
+#app .equal {
+    color: black !important;
+}
+
+#app .equal:hover {
+    background-color: gray;
+    color: white !important;
+}
